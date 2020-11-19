@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,500;0,600;1,100;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="icon" href="Greengear.png">
+    <title>Green Gear</title>
+</head>
+<body>
+    <div class="page">
+        <header><img class="logo" src="Logo.png" alt="GreenGear"></header>
+        <div id="nav-container">
+          <div class="bg"></div>
+          <div class="button" tabindex="0">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </div>
+          <div id="nav-content" tabindex="0">
+            <ul>
+              <li><a href="#">Hjem</a></li>
+              <li><a href="#">Muligheder</a></li>
+              <li style="background-color:#073f00; color: cornsilk; border-radius: 15px;"><a href="#">Hvor er vi?</a></li>
+              <li><a href="#">Prisliste</a></li>
+              <li><a href="#">Om os</a></li>
+              <li><input type="text" placeholder="Søg..."></li>
+              <div class="socials">
+                  <img style="margin-left: -20px;" class="socialimg" src="facebook.svg" alt="facebook">
+                  <img class="socialimg" src="twitter.svg" alt="Twitter">
+                  <img class="socialimg" src="instagram.svg" alt="instagram">
+              </div>
+            </ul>
+          </div>
+        </div>
+        <section class="bigimg">
+            <div>
+                <h2 style="font-weight: bold; font-size: 4rem; margin-top: 160px; border-bottom: solid 2px #073f00 ; border-top: solid 2px #073f00 ;">
+                    Move Green
+                </h2>
+            </div>
+            <div class="pil">
+                Scroll ned
+                <img src="down-arrow.png" alt="pil">
+            </div>
+        </section>
+        <section class="main">
+            <div class="overskrift">
+            <h2>
+               Her finder du os
+            </h2>
+            </div>
+            <div class="se">
+                <a onclick="document.getElementById('myImage').src='danmarkskort-showrooms.png'">Se <br> Showrooms</a>
+                <a onclick="document.getElementById('myImage').src='danmarkskort-ladestation.png'">Se <br> Ladestationer</a>
+                <a onclick="document.getElementById('myImage').src='danmarkskort-parkering.png'">Se <br> Parkering</a>
+            </div>
+        </section>
+        <img class="danmarkskort" id="myImage" src="danmarkskort.PNG" alt="danmark">
+        <div class="vierher">
+            <div><h4>Showrooms</h4><br>
+                <ul>
+                    <li>København</li>
+                    <li>Køge</li>
+                    <li>Nakskov</li>
+                    <li>Odense</li>
+                    <li>Århus</li>
+                    <li>Aalborg</li>
+                </ul>
+            </div>
+            <div style="border-left: solid 1px #073f00 ; border-right: solid 1px #073f00 ;" ><h4>Ladestationer</h4> <br>
+                <ul>
+                    <li>København</li>
+                    <li>Køge</li>
+                    <li>Nakskov</li>
+                    <li>Odense</li>
+                    <li>Århus</li>
+                    <li>Aalborg</li>
+                </ul>
+            </div>
+            <div><h4>Parkering</h4> <br>
+                <ul>
+                    <li>København</li>
+                    <li>Køge</li>
+                    <li>Nakskov</li>
+                    <li>Odense</li>
+                    <li>Århus</li>
+                    <li>Aalborg</li>
+                </ul>
+            </div>
+        </div>
+        <div class="showrooms">
+            <h3 class="showroomh">Showrooms</h3>
+            <p>I Vores showrooms, står vores professionelle 
+                rådgivere klar til at finde den helt rette
+                til netop dine behov.   Her kan du prøvekøre
+                alle vores nyeste modeller og få et indblik i 
+                hvordan vi kan hjælpe dig.</p>
+
+            <div class="grid1">
+                <div class="showroombillede1"><img src="showroom2.jpg" alt="showroom"></div>
+                <div class="showroombillede2"><img src="Showroom1.jpg" alt="showroom"></div>
+                <div class="showroombillede3"><img src="showroom3.jpg" alt="showroom"></div>
+            </div>          
+        </div>
+
+        <div class="ladestationer">
+            <h3 id="ovs" class="showroomh">Ladestationer</h3>
+            <p>Ved vores top-moderne ladestationer rundt omkring i landet. Vil du have mulighed for gratis at lade din bil på rekord tid.
+                Dette har vi opnået samtidig med at alt strøm på vores stationer stammer fra vedvarende energikilder.
+            </p>
+
+            <div id="ovs" class="grid1">
+                <div class="showroombillede1"><img src="ladestation.jpg" alt="ladestation"></div>
+                <div class="showroombillede2"><img src="ladestation1.jpg" alt="ladestation"></div>
+                <div class="showroombillede3"><img src="ladestation2.jpg" alt="ladestation"></div>
+            </div>          
+        </div>
+
+        <div class="parkering">
+            <h3 id="ovs" class="showroomh">Parkering</h3>
+            <p>Vi har parkeringhuse og kældere i mange store byer, ved leje af en af vores biler får du ubegrænset adgang til dem.
+                så du let og bekvemmeligt kan parkere din bil.
+            </p>
+
+            <div class="parkeringgrid">
+                <div class="gridelement1"><img src="parkering.jpg" alt=""></div>
+                <div class="gridelement2"><img src="parkering1.jpg" alt=""></div>
+            </div>          
+        </div>
+
+        <footer>
+            <p>&copy; 2020 Green Gear - All rights reserved</p>
+        </footer>
+</body>
+</html>
