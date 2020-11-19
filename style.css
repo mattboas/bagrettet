@@ -370,5 +370,155 @@
     text-align: center;
     color: rgba(0,0,0,.7);
 }
+.øverst {
+  padding-top: 30px;
+  font-family: 'Roboto' , sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+  background: #f1f1f1;
   
-  
+
+}
+
+.tekstunder {
+  font-family: 'Roboto' , sans-serif;
+  text-align: center;
+  font-style: italic;
+  margin-top: -10px;
+  background: #f1f1f1;
+  padding-bottom: 25px; 
+}
+
+.forside {
+  margin-right: 0px;
+}
+
+.krop {
+  background-image: url("baggrund.jpg");
+}
+
+.krop h2 {
+font-size: 50px;
+color: #000001;
+font-family: 'Roboto' , sans-serif;
+text-align: center;
+padding-top: 60px;
+padding-bottom: 40px;
+font-weight: bolder;
+}
+.billede_Øverst_Venstre {
+  border: 2px solid rgb(24, 22, 22);
+  border-radius: 15px;
+  padding: 15px;
+  width: 300px;
+  background-color: rgb(24, 22, 22);
+
+}
+
+.krop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.krop_1 hr {
+ padding: 10px;
+ font-style: none;
+ border: none;
+}
+.textbox_Øverst_Venstre {
+  padding-bottom: 20px;
+  padding-top: -10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(245, 242, 242);
+  border-radius: 15px;
+  width: 300px;
+  background-color: rgb(245, 242, 242);
+}
+
+.textbox_Øverst_Venstre h3 {
+  font-family: 'Roboto' , sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.textbox_Øverst_Højre h3 {
+font-family: 'Roboto' , sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.krop_1 {
+ padding: 50px;
+}
+
+
+.textbox_Øverst_Højre p {
+  font-family: 'Roboto' , sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.textbox_Øverst_Venstre p {
+  font-family: 'Roboto' , sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.billede_Øverst_Højre {
+  border: 2px solid rgb(24, 22, 22);
+  border-radius: 15px;
+  padding: 15px;
+  width: 300px;
+  background-color: rgb(24, 22, 22);
+  text-align: center;
+}
+.textbox_Øverst_Højre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(245, 242, 242);
+  border-radius: 15px;
+  align-content: center;
+  width: 300px;
+  background-color: rgb(245, 242, 242);
+  padding-bottom: 20px;
+  padding-top: -10px;
+}  
+
+.Knap {
+  box-shadow:inset 0px 0px 0px 0px #3dc21b;
+  background-color:#54c772;
+  border-radius:14px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:19px;
+  padding:10px 26px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+}
+.Knap:hover {
+  background-color:#2bb33f;
+}
+.Knap:active {
+  position:relative;
+  top:1px;
+}
