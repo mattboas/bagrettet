@@ -235,6 +235,7 @@
     align-items: center;
     background: url(banner.jpg);
     background-size: cover;
+    padding: 100px;
     
   }
 
@@ -255,7 +256,7 @@
     margin-top: 20px;
   }
 
-  .button
+  .button-et
   {
     font-size: 1.2em;
     color: white;
@@ -268,6 +269,22 @@
     letter-spacing: 2px;
     transition: 0.5s;
     z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    -webkit-appearance: none;
+    border: 0;
+    background: transparent;
+    border-radius: 0;
+    height: 70px;
+    width: 30px;
+    cursor: pointer;
+    pointer-events: auto;
+    margin-left: 25px;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
     
   }
   .button:hover
@@ -275,10 +292,6 @@
     letter-spacing: 6px;
   }
 
-  section
-  {
-    padding: 100px;
-  }
 
   .banner-to
   {
@@ -288,6 +301,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
   }
   
   .banner-to .content-to
