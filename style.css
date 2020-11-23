@@ -776,6 +776,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: absolute;
 }
 .bignav li {
   display: inline;
@@ -794,6 +795,10 @@ header {
 
 .bignav {
   margin-left: 260px;
+}
+
+.pil {
+  display: none;
 }
 
 }
