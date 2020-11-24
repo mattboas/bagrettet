@@ -764,7 +764,103 @@ h4 {
   box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.6);
   border-radius: 15px;
 }
+/*Prisliste style*/
+.biludvalg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin-top: 30px;
+  text-align: center;
+}
 
+.biludvalg h2{
+  font-size: 2rem;
+  border-bottom: solid 1px black;
+  width: 150px;
+  align-self: center;
+}
+
+.biludvalg div {
+
+  height: auto;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.biludvalg img {
+  width: 75%;
+}
+
+.biludvalgja {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#topimgpris {
+  width: 100%;
+  height: 30%;
+  border-bottom: solid 1px rgb(0, 75, 10);
+
+}
+
+#topimgpris h1 {
+  margin-top: 25%;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  float: left;
+  margin-left: 20px;
+}
+
+#topimgpris p {
+  margin-top: 5%;
+  font-weight: lighter;
+  float: left;
+  margin-left: 20px;
+}
+
+.custom {
+  width: 100%;
+  height: 400px;
+  border-top: solid 1px black;
+}
+
+.custom h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.custom a {
+  font-size: 1.5rem;
+  border: solid 1px black;
+  border-radius: 15px;
+  padding: 3px;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #575757 5%, #383638 100%);
+	background-color:#575757;
+	border-radius:6px;
+	border:1px solid #a8a8a8;
+	display:inline-block;
+	cursor:pointer;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.custom-farver {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 @media only screen and (min-width: 600px) {
 
 #nav-container {
@@ -788,18 +884,22 @@ header {
   padding-bottom: 20px;
   
 }
+.bignav a {
+  padding: 19px 13px;
+}
 
 .bignav li a:hover {
   text-shadow: 1px 0px 2px rgb(0, 109, 0);
 }
 
 .bignav {
-  margin-left: 260px;
+  margin-left: 225px;
 }
 
 .pil {
   display: none;
 }
+
 
 }
 
