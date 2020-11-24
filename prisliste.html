@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Bilforhandler">
+    <meta name="keywords" content="Biler, elbil, forhandler, klimavenlig, SU-venlig">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,500;0,600;1,100;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="icon" href="Greengear.png">
+    <title>Green Gear</title>
+</head>
+<body style="background-color: #f1f1f1;">
+    <div class="page">
+        <header>
+            <ul class="bignav">
+                <li><a href="Forside.html">Hjem</a></li>
+              <li><a href="info.html">Muligheder</a></li>
+              <li><a href="hvorervi.html">Hvor er vi?</a></li>
+              <li><a href="prisliste.html">Prisliste</a></li>
+              <li><a href="Victor.html">Om os</a></li>
+            </ul>
+            <img class="logo" src="Logo.png" alt="GreenGear">
+        </header>
+        <div id="nav-container">
+          <div class="bg"></div>
+          <div class="button" tabindex="0">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </div>
+          <div id="nav-content" tabindex="0">
+            <ul>
+                <li><a href="Forside.html">Hjem</a></li>
+                <li><a href="info.html">Muligheder</a></li>
+                <li><a href="hvorervi.html">Hvor er vi?</a></li>
+                <li><a href="prisliste.html">Prisliste</a></li>
+                <li><a href="Victor.html">Om os</a></li>
+              <li><input type="text" placeholder="Søg..."></li>
+              <div class="socials">
+                  <img style="margin-left: -20px;" class="socialimg" src="facebook.svg" alt="facebook">
+                  <img class="socialimg" src="twitter.svg" alt="Twitter">
+                  <img class="socialimg" src="instagram.svg" alt="instagram">
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div id="topimgpris">
+            <h1>
+                Prisliste.
+            </h1>
+            <p>
+                Mange foskellige valgmuligheder til dine behov.
+            </p>
+        </div>
+        <section class="biludvalg">
+            <h2>SUV</h2>
+            <div><img  src="prislistebil-to.jpg" alt="bil"><p>Pris: 1000,- pr. måned <br> 150 Hk, 600km på en opladning</p></div> 
+            <div><img  src="prislistebil-tre.jpg" alt="bil"> <p>Pris: 1000,- pr. måned <br> 150 Hk, 600km på en opladning</p></div>
+            <h2 style="margin-top: 30px; margin-bottom: 30px;">Mini-bil</h2>
+            <div><img  src="prislistebil-fire.jpg" alt="bil"><p>Pris: 1000,- pr. måned <br> 150 Hk, 600km på en opladning</p></div>
+            <div><img  src="prislistebil-fem.jpg" alt="bil"><p>Pris: 1000,- pr. måned <br> 150 Hk, 600km på en opladning</p></div>
+        </section>
+
+        <section class="custom">
+            <h3>Customize din bil</h3>
+            <div><img id="customize" src="prislistebil-to.jpg" alt=""></div>
+            <div class="custom-farver">
+            <a style="color: red;" onclick="document.getElementById('customize').src='prislistebil-rød.png'">Rød</a>
+            <a style="color: green;" onclick="document.getElementById('customize').src='prislistebil-grøn.png'">Grøn</a>
+            <a style="color: teal;" onclick="document.getElementById('customize').src='prislistebil-lyseblå.png'">Lyseblå</a>
+            <a style="color: violet;" onclick="document.getElementById('customize').src='prislistebil-lyserød.png'">Lyserød</a>
+            </div>
+        </section>
+    
+</body>
+</html>
