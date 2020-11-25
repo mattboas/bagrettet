@@ -245,24 +245,25 @@ body {
   .banner .content
   {
     max-width: 900px;
-    text-align: center;
+    
   }
   .banner .content h2
   {
     font-size: 5em;
-    color: white;
+    color: #000001;
   }
   .banner .content p
   {
     font-size: 1em;
-    color: white;
+    color: #000001;
     margin-top: 20px;
   }
 
   .button-et
   {
     font-size: 1.2em;
-    color: white;
+    color: #000001;
+    text-align: center;
   
     display: inline-block;
     margin-top: 20px;
@@ -272,22 +273,9 @@ body {
     letter-spacing: 2px;
     transition: 0.5s;
     z-index: 1;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 1;
-    -webkit-appearance: none;
-    border: 0;
-    background: transparent;
-    border-radius: 0;
-    height: 70px;
-    width: 30px;
-    cursor: pointer;
-    pointer-events: auto;
-    margin-left: 25px;
-    touch-action: manipulation;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    
+   
+  
     
   }
   .button:hover
@@ -963,7 +951,10 @@ h4 {
 margin-top: 100px;
 }
 .banner .content h2 {
-  color: black;
+  color: #000001;
+}
+.banner .content p {
+  color: #000001;
 }
 
 }
