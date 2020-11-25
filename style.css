@@ -953,6 +953,9 @@ h4 {
   border-top: solid 1px black;
 
 }
+.krop {
+  background-image: url("background.jpg");
+}
 }
 
 @media only screen and (max-width: 1200px) {
