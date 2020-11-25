@@ -873,11 +873,15 @@ h4 {
     justify-content: center;
   }
 .bignav a {
-  padding: 19px 13px;
+  padding: 19px 50px;
 }
 
-.bignav li a:hover {
+.bignav a:hover {
+  background: rgb(175, 255, 192);
   text-shadow: 1px 0px 2px rgb(0, 109, 0);
+}
+.logo {
+  width: 120px;
 }
 .pil {
   display: none;
