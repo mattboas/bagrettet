@@ -954,6 +954,18 @@ h4 {
   border-top: solid 1px black;
 
 }
+
+.banner {
+  min-height: 40vh;
+}
+
+.banner .content {
+margin-top: 100px;
+}
+.banner .content h2 {
+  color: black;
+}
+
 }
 
 @media only screen and (max-width: 1200px) {
