@@ -954,10 +954,9 @@ h4 {
   border-top: solid 1px black;
 
 }
+
 .krop {
   background-image: none;
-  position: left;
-  float: left;
 }
 .Heletekst {
   background-image: url("baggrund.jpg");
@@ -971,6 +970,7 @@ h4 {
   background: none;
 }
 .billede_Øverst_Venstre {
+ float: left;
 }
 }
 
