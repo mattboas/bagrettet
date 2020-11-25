@@ -766,3 +766,146 @@ h4 {
   border-radius: 15px;
 }
 
+<<<<<<< HEAD
+=======
+.custom a {
+  font-size: 1.5rem;
+  border: solid 1px black;
+  border-radius: 15px;
+  padding: 3px;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #575757 5%, #383638 100%);
+	background-color:#575757;
+	border-radius:6px;
+	border:1px solid #a8a8a8;
+	display:inline-block;
+	cursor:pointer;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+.custom-farver {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media only screen and (min-width: 600px) {
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+.bignav a {
+  padding: 19px 50px;
+}
+
+.bignav a:hover {
+  background: rgb(175, 255, 192);
+  text-shadow: 1px 0px 2px rgb(0, 109, 0);
+}
+.logo {
+  width: 120px;
+}
+.pil {
+  display: none;
+}
+.overskrift {
+  width: 500px;
+}
+.overskrift h2 {
+  font-size: 3rem;
+}
+.danmarkskort {
+  width: 30%;
+  height: 30%;
+}
+.dkkort {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #073f00;
+}
+.danmarkskort {
+  margin-top: 0;
+}
+.vierher {
+  column-gap: 5em;
+  margin-left: 150px;
+  border: solid 1px black;
+  border-radius: 2px;
+  width: 50%;
+  height: 450px;
+  color: #f1f1f1;
+  background-color: #073f00;
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+
+}
+.vierher div {
+  border: none;
+  padding-top: 75px;
+  font-size: 1.5rem;
+}
+.se {
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.se a { 
+  margin-left: 10px;
+}
+
+.showrooms {
+  width: 30%;
+  height: 735px;
+  max-height: 735px;
+}
+.ladestationer {
+  width: 30%;
+  max-height: 735px;
+
+}
+.parkering {
+  width: 30%;
+  max-height: 735px;
+}
+.boxboss {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top: solid 1px black;
+
+}
+}
+
+@media only screen and (max-width: 1200px) {
+
+.bignav {
+  display: none;
+}
+header {
+   position: fixed;
+}
+#nav-container {
+  position: fixed;
+}
+}
+@media only screen and (min-width: 1200px) {
+
+  #nav-container {
+    display: none;
+    
+  }
+  .bigimg {
+    height: 600px;
+  }
+}
+>>>>>>> main
