@@ -420,7 +420,7 @@ font-size: 50px;
 color: #000001;
 font-family: 'Roboto' , sans-serif;
 text-align: center;
-padding-top: 60px;
+padding-top: 40px;
 padding-bottom: 40px;
 font-weight: bolder;
 }
@@ -956,6 +956,8 @@ h4 {
 }
 .krop {
   background-image: none;
+  position: left;
+  float: left;
 }
 .Heletekst {
   background-image: url("baggrund.jpg");
@@ -967,6 +969,8 @@ h4 {
 .tekstunder {
   font-size: 30px;
   background: none;
+}
+.billede_Øverst_Venstre {
 }
 }
 
