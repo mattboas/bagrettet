@@ -390,11 +390,12 @@ body {
 
 .øverst {
   padding-top: 30px;
+  
   font-family: 'Roboto' , sans-serif;
   text-align: center;
   font-weight: bolder;
-  font-size: 25px;
-  background: #f1f1f1; 
+  font-size: 25px; 
+  background-color: #f1f1f1;
  }
 
 .tekstunder {
@@ -402,7 +403,7 @@ body {
   text-align: center;
   font-style: italic;
   margin-top: 10px;
-  background: #f1f1f1;
+  background-color: #f1f1f1;
   padding-bottom: 25px; 
 }
 
@@ -955,6 +956,15 @@ h4 {
 }
 .krop {
   background-image: none;
+}
+.Heletekst {
+  background-image: url("baggrund.jpg");
+}
+.øverst {
+  font-size: 40px;
+}
+.tekstunder {
+  font-size:
 }
 }
 
