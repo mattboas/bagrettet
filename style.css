@@ -866,23 +866,6 @@ h4 {
   margin-right: 10px;
 }
 @media only screen and (min-width: 600px) {
-
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  position: absolute;
-}
-.bignav li {
-  display: inline;
-  font-size: 1.5rem;
-  margin: 1em;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  
-}
 .bignav a {
   padding: 19px 13px;
 }
@@ -890,11 +873,6 @@ header {
 .bignav li a:hover {
   text-shadow: 1px 0px 2px rgb(0, 109, 0);
 }
-
-.bignav {
-  margin-left: 225px;
-}
-
 .pil {
   display: none;
 }
@@ -971,7 +949,7 @@ header {
 }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1200px) {
 
 .bignav {
   display: none;
@@ -983,7 +961,7 @@ header {
   position: fixed;
 }
 }
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1200px) {
 
   #nav-container {
     display: none;
