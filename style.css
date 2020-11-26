@@ -376,10 +376,10 @@ body {
     text-decoration: none;
     letter-spacing: 2px;
     transition: 0.5s;
-    
     align-items: center;
     
   }
+  
 
   footer
 {
@@ -1033,6 +1033,7 @@ margin-top: 100px;
     align-items: center;
     align-content: center;
   }
+  
   
 }
 
