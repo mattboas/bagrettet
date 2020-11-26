@@ -23,6 +23,7 @@
                 <a href="Victor.html">Om os</a>
                 <img class="logo" src="Logo.png" alt="GreenGear">
             </div>
+            <img class="logosmall" src="Logo.png" alt="GreenGear">
         </header>
         <div id="nav-container">
           <div class="bg"></div>
@@ -49,31 +50,40 @@
         </div>
     </div>
         <div id="topimgpris">
-            <h1>
-                Prisliste.
-            </h1>
-            <p>
-                Mange foskellige valgmuligheder til dine behov.
-            </p>
         </div>
         <section class="biludvalg">
+            <div class="bilerne">
             <h2>SUV</h2>
-            <div><img  src="prislistebil-to.jpg" alt="bil"><p>Pris: 1000,- pr. måned <br> 150 Hk, 600km på en opladning</p></div> 
-            <div><img  src="prislistebil-tre.jpg" alt="bil"> <p>Pris: 1000,- pr. måned <br> 150 Hk, 600km på en opladning</p></div>
+            <div><img  src="prislistebil-to.jpg" alt="bil"><p> <strong> Pris: 999,- pr. måned</strong> <br> 150 Hk, 600km på en opladning.</p></div> 
+            <div><img  src="prislistebil-tre.jpg" alt="bil"> <p><strong> Pris: 1299,- pr. måned</strong>  <br> 200 Hk, 450km på en opladning.</p></div>
+            </div>
+            <div class="bilerne">
             <h2 style="margin-top: 30px; margin-bottom: 30px;">Mini-bil</h2>
-            <div><img  src="prislistebil-fire.jpg" alt="bil"><p>Pris: 1000,- pr. måned <br> 150 Hk, 600km på en opladning</p></div>
-            <div><img  src="prislistebil-fem.jpg" alt="bil"><p>Pris: 1000,- pr. måned <br> 150 Hk, 600km på en opladning</p></div>
+            <div><img  src="prislistebil-fire.jpg" alt="bil"><p><strong> Pris: 750,- pr. måned</strong>  <br> 110 Hk, 850km på en opladning.</p></div>
+            <div><img  src="prislistebil-fem.jpg" alt="bil"><p><strong> Pris: 700,- pr. måned</strong>  <br> 100 Hk, 900km på en opladning.</p></div>
+            </div>
         </section>
-
+        <section class="customizer">
         <section class="custom">
-            <h3>Customize din bil</h3>
-            <div><img id="customize" src="prislistebil-to.jpg" alt=""></div>
+            <h3>Customize din SUV</h3>
+            <div class="custombil"><img id="customize" src="prislistebil-to.jpg" alt=""></div>
             <div class="custom-farver">
             <a style="color: red;" onclick="document.getElementById('customize').src='prislistebil-rød.png'">Rød</a>
             <a style="color: green;" onclick="document.getElementById('customize').src='prislistebil-grøn.png'">Grøn</a>
             <a style="color: teal;" onclick="document.getElementById('customize').src='prislistebil-lyseblå.png'">Lyseblå</a>
             <a style="color: violet;" onclick="document.getElementById('customize').src='prislistebil-lyserød.png'">Lyserød</a>
             </div>
+        </section>
+        <section class="custom">
+            <h3>Customize din mini-bil</h3>
+            <div class="custombil"><img id="customizemini" src="prislistebil-fem.jpg" alt=""></div>
+            <div class="custom-farver">
+            <a style="color: red;" onclick="document.getElementById('customizemini').src='prislistebil-fem-rød.png'">Rød</a>
+            <a style="color: green;" onclick="document.getElementById('customizemini').src='prislistebil-fem-grøn.png'">Grøn</a>
+            <a style="color: rgb(255, 255, 255);" onclick="document.getElementById('customizemini').src='prislistebil-fem-hvid.png'">Hvid</a>
+            <a style="color: rgb(59, 39, 39);" onclick="document.getElementById('customizemini').src='prislistebil-fem-brun.png'">Brun</a>
+            </div>
+        </section>
         </section>
     
 </body>
