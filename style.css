@@ -278,7 +278,7 @@ body {
   
     
   }
-  .button:hover
+  .button-et:hover
   {
     letter-spacing: 6px;
   }
@@ -335,6 +335,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
+    margin-bottom: 50px;
     
   }
   
@@ -956,6 +958,42 @@ margin-top: 100px;
 .banner .content p {
   color: #000001;
 }
+.banner-to {
+  width: 45%;
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-top: 30px;
+  margin-left: 10px;
+ display: flex;
+ float: left;
+ min-height: 80vh;
+ 
+}
+
+.banner-tre {
+  width: 45%;
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-top: 30px;
+  margin-right: 10px;
+  display: flex;
+  float: right;
+  min-height: 80vh;
+}
+.banner-tre .content-tre
+  {
+    max-width: 900px;
+    margin-top: 0px;
+    
+    
+  }
+  .banner-to .content-to
+  {
+    max-width: 900px;
+    margin-top: 0px;
+  }
 
 }
 
