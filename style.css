@@ -983,13 +983,14 @@ font-size: 30px;
 color: #000001;
 font-family: 'Roboto' , sans-serif;
 text-align: center;
-padding-top: 40px;
-padding-bottom: 20px;
+padding-top: 20px;
+padding-bottom: 10px;
 font-weight: bolder;
 }
 .textbox_Nederst_Venstre {
+  margin-top: 20px;
+  margin-bottom: 70px;
   padding-bottom: 20px;
-  padding-top: -10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1025,6 +1026,8 @@ padding-bottom: 20px;
 font-weight: bolder;
 }
 .textbox_Nederst_Højre {
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding-bottom: 20px;
   padding-top: -10px;
   display: flex;
