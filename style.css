@@ -1033,7 +1033,6 @@ h4 {
 
 
 @media only screen and (max-width: 1200px) {
-
 .bignav {
   display: none;
 }
@@ -1053,4 +1052,8 @@ header {
   .bigimg {
     height: 600px;
   }
+  .logosmall {
+    display: none;
+  } 
+
 }
