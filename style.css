@@ -705,6 +705,7 @@ h4 {
 }
 .parkering h3 {
     padding-top: 0;
+    margin-top: 15px;
 }
 .parkering p {
     margin-left: 10px;
@@ -809,7 +810,11 @@ h4 {
 
 #topimgpris {
   width: 100%;
-  height: 30%;
+  height: 50%;
+  background-image: url(Baggrund-prisliste.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-bottom: solid 1px rgb(0, 75, 10);
 
 }
@@ -866,15 +871,21 @@ h4 {
   margin-left: 10px;
   margin-right: 10px;
 }
+.logosmall {
+  width: 120px;
+}
 @media only screen and (min-width: 600px) {
 
   header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
   }
 .bignav a {
-  padding: 19px 13px;
+  padding: 23px 50px;
+
 }
 
 .bignav li a:hover {
@@ -933,24 +944,31 @@ h4 {
 .showrooms {
   width: 30%;
   height: 735px;
-  max-height: 735px;
+  max-height: 700px;
 }
 .ladestationer {
   width: 30%;
-  max-height: 735px;
+  max-height: 700px;
 
 }
 .parkering {
   width: 30%;
-  max-height: 735px;
+  max-height: 700px;
+}
+
+.parkering img {
+  width: 90%;
+}
+.ladestationer .showroombillede1 {
+  height: 220px;
 }
 .boxboss {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
   border-top: solid 1px black;
 
 }
@@ -1041,10 +1059,75 @@ margin-top: 100px;
   }
   
   
+=======
+.biludvalg {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+.biludvalg img {
+  width: 200px;
+}
+.biludvalg div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0;
+}
+.biludvalg h2 {
+  width: 250px;
+  border: none;
+}
+.biludvalg p {
+  color: #073f00;
+}
+.bilerne {
+  border-bottom: solid 1px black;
+  background-color: #ffffff;
+}
+.bilerne div {
+  height: 100%;
+  border-left: solid 1px #073f00;
+}
+.bilerne h2 {
+  display: none;
+
 }
 
-@media only screen and (max-width: 1200px) {
+.customizer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.custom {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-content: center;
+  align-items: center;
+  padding-top: 20px;
+  border-left: solid 1px black;
+}
+.custombil{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.custom img {
+  width: 65%;
+}
 
+.custom-farver a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+}
+
+
+@media only screen and (max-width: 1200px) {
 .bignav {
   display: none;
 }
@@ -1064,4 +1147,9 @@ header {
   .bigimg {
     height: 600px;
   }
+}
+  .logosmall {
+    display: none;
+  } 
+
 }
