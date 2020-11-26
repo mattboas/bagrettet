@@ -964,9 +964,11 @@ margin-top: 100px;
 }
 .banner .content h2 {
   color: #000001;
+  margin-left: 50px;
 }
 .banner .content p {
   color: #000001;
+  margin-left: 50px;
 }
 .banner-to {
   width: 45%;
@@ -1002,6 +1004,10 @@ margin-top: 100px;
   {
     max-width: 900px;
     margin-top: 0px;
+  }
+
+  .button-et {
+    margin-left: 50px;
   }
 
   .button-to
