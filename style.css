@@ -245,24 +245,25 @@ body {
   .banner .content
   {
     max-width: 900px;
-    text-align: center;
+    
   }
   .banner .content h2
   {
     font-size: 5em;
-    color: white;
+    color: #000001;
   }
   .banner .content p
   {
     font-size: 1em;
-    color: white;
+    color: #000001;
     margin-top: 20px;
   }
 
   .button-et
   {
     font-size: 1.2em;
-    color: white;
+    color: #000001;
+    text-align: center;
   
     display: inline-block;
     margin-top: 20px;
@@ -272,25 +273,22 @@ body {
     letter-spacing: 2px;
     transition: 0.5s;
     z-index: 1;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 1;
-    -webkit-appearance: none;
-    border: 0;
-    background: transparent;
-    border-radius: 0;
-    height: 70px;
-    width: 30px;
-    cursor: pointer;
-    pointer-events: auto;
-    margin-left: 25px;
-    touch-action: manipulation;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    
+   
+  
     
   }
-  .button:hover
+  .button-et:hover
+  {
+    letter-spacing: 6px;
+  }
+
+  .button-to:hover
+  {
+    letter-spacing: 6px;
+  }
+
+  .button-tre:hover
   {
     letter-spacing: 6px;
   }
@@ -305,6 +303,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 100px;
+    margin-bottom: 50px;
   }
   
   .banner-to .content-to
@@ -326,7 +325,7 @@ body {
     font-size: 1.2em;
     margin-left: 10px;
     padding: 15px 32px;
-  text-align: center;
+    text-align: center;
     display: inline-block;
     
     text-transform: uppercase;
@@ -346,12 +345,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
+    margin-bottom: 50px;
     
   }
   
   .banner-tre .content-tre
   {
-    max-width: 900px;
+    max-width: 200px;
     margin-top: -300px;
     
   }
@@ -375,10 +376,10 @@ body {
     text-decoration: none;
     letter-spacing: 2px;
     transition: 0.5s;
-    
     align-items: center;
     
   }
+  
 
   footer
 {
@@ -884,14 +885,11 @@ h4 {
   }
 .bignav a {
   padding: 23px 50px;
+
 }
 
-.bignav a:hover {
-  background: rgb(175, 255, 192);
+.bignav li a:hover {
   text-shadow: 1px 0px 2px rgb(0, 109, 0);
-}
-.logo {
-  width: 120px;
 }
 .pil {
   display: none;
@@ -974,6 +972,94 @@ h4 {
   border-top: solid 1px black;
 
 }
+
+.banner {
+  min-height: 40vh;
+}
+
+.banner .content {
+margin-top: 100px;
+}
+.banner .content h2 {
+  color: #000001;
+  margin-left: 50px;
+}
+.banner .content p {
+  color: #000001;
+  margin-left: 50px;
+}
+.banner-to {
+  width: 45%;
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-top: 50px;
+  margin-left: 70px;
+ display: flex;
+ float: left;
+ min-height: 80vh;
+ 
+}
+
+.banner-tre {
+  width: 45%;
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-top: 50px;
+  margin-right: 70px;
+  display: flex;
+  float: right;
+  min-height: 80vh;
+}
+.banner-tre .content-tre
+  {
+    max-width: 900px;
+    margin-top: 0px;
+  }
+
+  .banner-to .content-to
+  {
+    max-width: 900px;
+    margin-top: 0px;
+  }
+
+  .button-et {
+    margin-left: 50px;
+  }
+
+  .button-to
+  { 
+    margin-left: -30px;
+  }
+
+  .button-tre
+  { 
+    margin-left: -30px;
+  }
+  .content-tre img
+  {
+    width: 50%;
+  }
+  .content-tre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+  .content-to img
+  {
+    width: 50%;
+  }
+  .content-to {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+  
+  
+=======
 .biludvalg {
   display: flex;
   flex-direction: column;
@@ -1006,6 +1092,7 @@ h4 {
 }
 .bilerne h2 {
   display: none;
+
 }
 
 .customizer {
@@ -1060,6 +1147,7 @@ header {
   .bigimg {
     height: 600px;
   }
+}
   .logosmall {
     display: none;
   } 
