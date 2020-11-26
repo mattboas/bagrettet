@@ -973,8 +973,8 @@ margin-top: 100px;
   background-color: #f2f2f2;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
-  margin-top: 30px;
-  margin-left: 10px;
+  margin-top: 50px;
+  margin-left: 70px;
  display: flex;
  float: left;
  min-height: 80vh;
@@ -986,8 +986,8 @@ margin-top: 100px;
   background-color: #f2f2f2;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
-  margin-top: 30px;
-  margin-right: 10px;
+  margin-top: 50px;
+  margin-right: 70px;
   display: flex;
   float: right;
   min-height: 80vh;
@@ -996,21 +996,42 @@ margin-top: 100px;
   {
     max-width: 900px;
     margin-top: 0px;
-    
-    
   }
+
   .banner-to .content-to
   {
     max-width: 900px;
     margin-top: 0px;
   }
+
   .button-to
   { 
     margin-left: -30px;
   }
+
   .button-tre
   { 
     margin-left: -30px;
+  }
+  .content-tre img
+  {
+    width: 50%;
+  }
+  .content-tre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+  .content-to img
+  {
+    width: 50%;
+  }
+  .content-to {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
   }
   
 }
