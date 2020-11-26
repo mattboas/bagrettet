@@ -1248,6 +1248,11 @@ margin-top: 100px;
   margin-right: 10px;
 }
 
+header a:hover {
+  background-color: #073f00 ;
+  color: whitesmoke;
+}
+
 }
 
 
@@ -1258,6 +1263,7 @@ margin-top: 100px;
 header {
    position: fixed;
 }
+
 #nav-container {
   position: fixed;
 }
