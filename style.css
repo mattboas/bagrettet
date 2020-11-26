@@ -875,9 +875,11 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
   }
 .bignav a {
-  padding: 19.5px 50px;
+  padding: 23px 50px;
 }
 
 .bignav a:hover {
@@ -978,13 +980,52 @@ h4 {
 }
 .biludvalg h2 {
   width: 250px;
+  border: none;
+}
+.biludvalg p {
+  color: #073f00;
 }
 .bilerne {
   border-bottom: solid 1px black;
+  background-color: #ffffff;
 }
 .bilerne div {
   height: 100%;
+  border-left: solid 1px #073f00;
 }
+.bilerne h2 {
+  display: none;
+}
+
+.customizer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.custom {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-content: center;
+  align-items: center;
+  padding-top: 20px;
+  border-left: solid 1px black;
+}
+.custombil{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.custom img {
+  width: 65%;
+}
+
+.custom-farver a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 }
 
 
